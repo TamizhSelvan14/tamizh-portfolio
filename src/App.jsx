@@ -179,7 +179,7 @@ function Experience() {
     {
       role: 'Software Development Engineer',
       company: 'Wiz Freight (Chennai, India)',
-      dates: 'Sep 2022 – Apr 2025',
+      dates: 'Jun 2022 – Apr 2025',
       bullets: [
         'Designed and implemented a Go microservices architecture using gRPC & PostgreSQL; reduced response time on high-traffic pages.',
         'Integrated third-party APIs to cut manual workload by 60% and improve operational efficiency.',
