@@ -220,9 +220,33 @@ function Experience() {
 
 function Projects() {
   const items = [
-    { name: 'Real-Time Chat Application', desc: 'Room-based chat with Socket.io enabling real-time, bidirectional communication and instant updates.', link: '' },
-    { name: 'AGRO — Mobile App for Farmers', desc: 'AI-powered Android app enabling farmers to sell directly to consumers with pricing recommendations and CV-based quality assessment (Firebase + Android Studio).', link: '' },
-  ]
+    { 
+      name: 'Real-Time Chat Application', 
+      desc: 'Room-based chat with Socket.io enabling real-time, bidirectional communication and instant updates.', 
+      link: '' 
+    },
+    { 
+      name: 'AGRO — Mobile App for Farmers', 
+      desc: 'AI-powered Android app enabling farmers to sell directly to consumers with pricing recommendations and CV-based quality assessment (Firebase + Android Studio).', 
+      link: '' 
+    },
+    { 
+      name: 'Real-Time Streaming Application', 
+      desc: 'Live video/audio streaming platform built with WebRTC and Node.js, supporting low-latency broadcasting, chat, and session management.', 
+      link: '' 
+    },
+    { 
+      name: 'Logistics Management System', 
+      desc: 'Cloud-native logistics platform streamlining shipment tracking, route optimization, and resource management with scalable backend services.', 
+      link: '' 
+    },
+    { 
+      name: 'Automation Job Builder', 
+      desc: 'Platform to automate business workflows by creating, scheduling, and managing jobs with integrated logging and monitoring.', 
+      link: '' 
+    }
+  ];
+  
   return (
     <section id="projects" className="container py-12 sm:py-16 border-t border-slate-800">
       <h2 className="text-2xl sm:text-3xl font-bold mb-6">Projects</h2>
